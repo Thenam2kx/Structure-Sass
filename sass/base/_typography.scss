@@ -1,0 +1,23 @@
+body {
+  min-height: 100vh;
+  width: 100vw;
+  font-family: "Roboto", sans-serif;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: unset;
+  text-decoration: none;
+  cursor: pointer;
+}
+button,
+input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+button {
+  cursor: pointer;
+}
