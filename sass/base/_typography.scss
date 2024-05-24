@@ -3,21 +3,43 @@ body {
   width: 100vw;
   font-family: "Roboto", sans-serif;
 }
+
+h2,
+h3,
+h4,
+h5,
+h6,
 p {
   margin: 0;
   padding: 0;
 }
+
 a {
   color: unset;
   text-decoration: none;
   cursor: pointer;
 }
+
+ul,
+ol { 
+  list-style-type: none; 
+  list-style-position: inside; 
+  margin: 0;
+  padding: 0;
+}
+
+
 button,
 input {
   border: none;
   outline: none;
   background-color: transparent;
 }
+
 button {
   cursor: pointer;
+}
+
+textarea {
+  outline: none;
 }
